@@ -1,12 +1,13 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
+title: research
+permalink: /research/
 nav: true
+order: 2
 ---
+Under construction 🚧
 
-<div class="projects grid">
+<!-- <div class="projects grid">
 
   {% assign sorted_projects = site.projects | sort: "importance" %}
   {% for project in sorted_projects %}
@@ -44,4 +45,4 @@ nav: true
   </div>
 {% endfor %}
 
-</div>
+</div> -->

@@ -16,8 +16,13 @@
     {% if entry.type == "thesis" %}
       {{reference}}
     {% else %}
+<!-- <<<<<<< HEAD -->
       <div class="title">{{entry.title}}</div>
       <div class="author">
+<!-- =======
+      <span class="title"><a href="https://doi.org/{{ entry.doi }}" target="_blank">{{ entry.title }}</a></span>
+      <span class="author">
+>>>>>>> first new commit to site -->
         {% for author in entry.author_array %}
           {% assign author_is_self = false %}
           {% if author.last == site.scholar.last_name%}
@@ -36,14 +41,22 @@
           {% endif %}
           
           {% if forloop.length == 1 %}
+<!-- <<<<<<< HEAD -->
             {% if author_is_self %}
+<!-- =======
+            {% if author.last == site.scholar.last_name and author.first == site.scholar.first_name %}
+>>>>>>> first new commit to site -->
               <em>{{author.last}}, {{author.first}}</em>
             {% else %}
               {{author.last}}, {{author.first}}
             {% endif %}
           {% else %}
             {% unless forloop.last %}
+<!-- <<<<<<< HEAD -->
               {% if author_is_self %}
+<!-- =======
+              {% if author.last == site.scholar.last_name and author.first == site.scholar.first_name %}
+>>>>>>> first new commit to site -->
                 <em>{{author.last}}, {{author.first}}</em>,
               {% else %}
                 {% if coauthor_url %}
@@ -53,7 +66,11 @@
                 {% endif %}
               {% endif %}
             {% else %}
+<!-- <<<<<<< HEAD -->
               {% if author_is_self %}
+<!-- =======
+              {% if author.last == site.scholar.last_name and author.first == site.scholar.first_name %}
+>>>>>>> first new commit to site -->
                 and <em>{{author.last}}, {{author.first}}</em>
               {% else %}
                 {% if coauthor_url %}
@@ -65,6 +82,7 @@
             {% endunless %}
           {% endif %}
         {% endfor %}
+<!-- <<<<<<< HEAD -->
       </div>
 
       <div class="periodical">
@@ -77,6 +95,18 @@
         {{entry.year}}
       {% endif %}
       </div>
+<!-- =======
+        {% if entry.type == "article" %}
+        <i>{{entry.journal}}</i> <b>{{entry.volume}}</b>: {{entry.pages}}
+        {% elsif entry.type == "inproceedings" %}
+          <em>In {{entry.booktitle}}</em>
+        {% endif %}
+      </span>
+
+      <span class="periodical">
+
+      </span>
+>>>>>>> first new commit to site -->
     {% endif %}
 
     <div class="links">

@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2020-07-29 12:00:00-0500
 inline: true
 ---
 
-A simple inline announcement.
+Just published in Proceedings of the Royal Society A: [Architecture and evolution of semantic networks in mathematics texts](https://doi.org/10.1098/rspa.2019.0741), with Ann Sizemore Blevins and Danielle Bassett.
