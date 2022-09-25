@@ -2,15 +2,15 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+# description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
   image: prof_pic.jpg
-  <!-- address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p> -->
+  # <!-- address: >
+  #   <p>555 your office number</p>
+  #   <p>123 your address street</p>
+  #   <p>Your City, State 12345</p> -->
 
 # <<<<<<< HEAD
 news: true  # includes a list of news items
@@ -24,7 +24,7 @@ order: 1
 # >>>>>>> first new commit to site
 ---
 
-I graduated from Harvard in May 2020 with an A.B. in Applied Mathematics, and will begin as a Ph.D. student at Caltech in [Computing and Mathematical Sciences](http://www.cms.caltech.edu/) in September. I am broadly interested in complex systems and their structure, dynamics, and control. Of particular interest to me are systems relevant to problems of energy and sustainability.
+I am a third-year Ph.D. student in Computing and Mathematical Sciences at Caltech, where I am advised by [Adam Wierman](https://adamwierman.com/) and [Steven Low](http://netlab.caltech.edu/people). My research is focused on the design of algorithms for sequential decision-making under uncertainty, with an emphasis toward online algorithms augmented with machine learning and robustness guarantees; I am also particularly motivated by applications in energy and sustainability. My work is supported by an NSF Graduate Research Fellowship.
 
-During my time at Harvard, I worked with [Boris Kozinsky](https://bkoz.seas.harvard.edu/group/PrincipalInvestigator) on the effect of disorder in facilitating ionic conduction in solid-state materials, and with [Danielle Bassett](https://complexsystemsupenn.com/personal) at Penn on the structure and growth of semantic networks of concepts in mathematics text. I also spent some time my first year working with [Eric Peterson](https://chromotopy.org/) on computational methods for spectral sequence calculations. I am also passionate about pedagogy in the mathematical sciences: I spent the last six of my eight semesters at Harvard teaching or tutoring for courses in mathematics, statistics, and computer science.
+Before Caltech, I received an A.B. in applied math from Harvard. While there, I worked with [Boris Kozinsky](https://mir.g.harvard.edu/people/boris-kozinsky) on disorder-induced conductivity in solid electrolytes, and with [Dani Bassett](https://complexsystemsupenn.com/personal) at UPenn on network science applied to semantic structure in texts.
 

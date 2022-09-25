@@ -3,10 +3,10 @@
 # -----------------------------------------------------------------------------
 
 title: Nico Christianson
-first_name: Nicolas
-middle_name: H
+first_name: Nico
+middle_name:
 last_name: Christianson
-email: nchristi@caltech.edu
+# email: nchristi@caltech.edu
 description: > # this means to ignore newlines until "url:"
   Nico's personal website.
 footer_text:
@@ -57,7 +57,7 @@ keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 
 contact_note: >
-  Feel free to reach out to me via email (mail symbol above), or find me elsewhere.
+  Reach me via email at nchristi [at] caltech [dot] edu
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
@@ -135,7 +135,7 @@ scholar:
   first_name: Nicolas H.
 
 
-  style: mla
+  style: apa
   locale: en
 
   source: /_bibliography/
