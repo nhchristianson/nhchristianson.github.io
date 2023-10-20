@@ -2,7 +2,7 @@
 ---
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
+        <!-- <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
         {%- if entry.preview -%}
           {% if entry.preview contains '://' -%}
           <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
@@ -20,27 +20,53 @@
             <abbr class="badge">{{entry.abbr}}</abbr>
           {%- endif -%}
         {%- endif -%}
-        </div>
+        </div> -->
+        <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
+              {%- if entry.preview -%}
+                  {% if entry.preview contains '://' -%}
+                      <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
+                  {%- else -%}
+                      <img class="preview z-depth-1 rounded" src="{{ entry.preview | prepend: '/assets/img/publication_preview/' | relative_url }}">
+                  {%- endif -%}
+              {%- elsif entry.abbr -%}
+                  {%- if site.data.venues[entry.abbr] -%}
+                      {%- assign venue_style = nil -%}
+                      {%- if site.data.venues[entry.abbr].color != blank -%}
+                          {%- assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' -%}
+                      {%- endif -%}
+                      <!-- Wrap the abbr with <a> tag to make it clickable -->
+                      <a href="{{entry.html}}" class="venue-button-link">
+                          <abbr class="badge" {% if venue_style %}{{venue_style}}{% endif %}>{{entry.abbr}}</abbr>
+                      </a>
+                  {%- else -%}
+                      <a href="{{entry.html}}" class="venue-button-link">
+                          <abbr class="badge" {% if venue_style %}{{venue_style}}{% endif %}>{{entry.abbr}}</abbr>
+                      </a>
+                  {%- endif -%}
+              {%- endif -%}
+          </div>
 
         <!-- Entry bib key -->
-        <div id="{{entry.key}}" class="col-sm-8">
+        <div id="{{entry.key}}" class="col-sm-10">
         {% if entry.type == "thesis" -%}
           {{reference}}
         {%- else %}
           <!-- Title -->
-          <div class="title">{{entry.title}}</div>
+          <div class="title">{{entry.title | replace: '\n', '<br>'}}</div>
           <!-- Author -->
           <div class="author">
           {% assign author_array_size = entry.author_array | size %}
+          {% assign max_author_limit = entry.maxauthorlimit | plus: 0 %}
 
           {% assign author_array_limit = author_array_size %}
-          {%- if site.max_author_limit and author_array_size > site.max_author_limit %}
-            {% assign author_array_limit = site.max_author_limit %}
+          {%- if max_author_limit and author_array_size > max_author_limit %}
+            {% assign author_array_limit = max_author_limit %}
           {% endif %}
 
           {%- for author in entry.author_array limit: author_array_limit -%}
             {%- assign author_is_self = false -%}
             {%- assign author_last_name = author.last | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "^" -%}
+            {%- assign author_first_initial = author.first | slice: 0, 1 -%}
             {%- if site.scholar.last_name contains author_last_name -%}
               {%- if site.scholar.first_name contains author.first -%}
                 {%- assign author_is_self = true -%}
@@ -61,12 +87,12 @@
               {%- if forloop.last and author_array_limit == author_array_size -%}and&nbsp;{%- endif -%}
             {%- endif -%}
             {%- if author_is_self -%}
-              <em>{{author.first}} {{author.last}}</em>
+              <em>{{author_first_initial}}. {{author.last}}</em>
             {%- else -%}
               {%- if coauthor_url -%}
-                <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
+                <a href="{{coauthor_url}}">{{author_first_initial}}. {{author.last}}</a>
               {%- else -%}
-                {{author.first}} {{author.last}}
+                {{author_first_initial}}. {{author.last}}
               {%- endif -%}
             {%- endif -%}
           {%- endfor -%}
@@ -79,7 +105,21 @@
             {%- endif -%}
             {%- assign more_authors_show = '' -%}
             {%- for author in entry.author_array offset: author_array_limit -%}
-              {%- assign more_authors_show = more_authors_show | append: author.first | append: " " | append: author.last -%}
+              {%- assign author_is_self = false -%}
+              {%- if site.scholar.last_name contains author_last_name -%}
+                {%- if site.scholar.first_name contains author.first -%}
+                  {%- assign author_is_self = true -%}
+                {%- endif -%}
+              {%- endif -%}
+              {%- assign author_first_initial = author.first | slice: 0, 1 -%}
+              {%- if author_is_self -%}
+                {%- assign name = author_first_initial | append: ". " | append: author.last -%}
+                {%- assign more_authors_show = more_authors_show | append: "<em>" | append: name | append: "</em>" -%}
+                }
+              {%- else -%}
+                {%- assign more_authors_show = more_authors_show | append: author_first_initial | append: ". " | append: author.last -%}
+              {%- endif -%}
+
               {%- unless forloop.last -%}
                 {%- assign more_authors_show = more_authors_show | append: ", " -%}
               {%- endunless -%}
@@ -117,16 +157,20 @@
             {%- capture entrymonth -%}{{ " " }}{{ entry.month | capitalize }}{%- endcapture -%}
           {%- endif -%}
           {%- if entry.year -%}
-            {%- capture entryyear -%}{{ " " }}{{entry.year}}{%- endcapture -%}
+            {%- capture entryyear -%}{{ "  " }}{{entry.year}}{%- endcapture -%}
           {%- endif -%}
-          {%- capture periodical -%}{{ entrytype }}{{ entrymonth }}{{ entryyear }}{%- endcapture -%}
+          {%- capture toappear -%}{%- endcapture -%}
+          <!-- {%- if entry.toappear == true -%}
+            {%- capture toappear -%}{{ " (to appear)" }}{%- endcapture -%}
+          {%- endif -%}  -->
+          {%- capture periodical -%}{{ entrytype }}{{ entrymonth }}{{ entryyear }}{{ toappear }}{%- endcapture -%}
           <div class="periodical">
             {{ periodical | strip }}
           </div>
         {%- endif %}
 
           <!-- Links/Buttons -->
-          <div class="links">
+          <!-- <div class="links">
           {%- if entry.abstract %}
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
           {%- endif %}
@@ -176,7 +220,7 @@
           {%- if entry.website %}
             <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
           {%- endif %}
-          </div>
+          </div> -->
 
           {% if entry.abstract -%}
           <!-- Hidden abstract block -->

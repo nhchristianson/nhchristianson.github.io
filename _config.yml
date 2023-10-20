@@ -29,6 +29,10 @@ footer_fixed: true
 # Dimensions
 max_width: 800px
 
+
+# max author limit
+max_author_limit: 3
+
 # TODO: add layout settings (single page vs. multi-page)
 
 # -----------------------------------------------------------------------------
@@ -160,7 +164,7 @@ enable_panelbear_analytics: false
 enable_mansory:             true
 enable_math:                true
 enable_tooltips:            false
-enable_darkmode:            true
+enable_darkmode:            false
 show_social_icons:          false
 
 # -----------------------------------------------------------------------------

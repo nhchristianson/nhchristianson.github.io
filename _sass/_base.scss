@@ -75,6 +75,28 @@ a, table.table a {
   }
 }
 
+.venue-button-link {
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px; // Moved border-radius here for a consistent hover effect
+
+    .badge {
+        background-color: white;
+        color: var(--global-theme-color) !important;
+        padding: 5px 10px;
+        border: 1px solid var(--global-theme-color); // Moved border here
+        border-radius: 5px; // This will round the corners of the button including the border
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    &:hover .badge {
+        background-color: var(--global-theme-color);
+        color: white !important;
+    }
+}
+
+
+
 
 // Navbar customization
 
@@ -327,26 +349,7 @@ footer.sticky-bottom {
 
     li {
       margin-bottom: 1rem;
-      .abbr {
-        height: 2rem;
-        margin-bottom: 0.5rem;
-        abbr {
-          display: inline-block;
-          background-color: var(--global-theme-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
-          a {
-            color: white;
-            &:hover {
-              text-decoration: none;
-            }
-          }
-        }
-        .award {
-          color: var(--global-theme-color) !important;
-          border: 1px solid var(--global-theme-color);
-        }
-      }
+
       .title {
         font-weight: bolder;
       }
@@ -365,6 +368,7 @@ footer.sticky-bottom {
       }
       .links {
         a.btn {
+          display: inline-block;
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
           padding-left: 1rem;
