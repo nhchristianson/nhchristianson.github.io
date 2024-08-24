@@ -14,30 +14,45 @@ $max-content-width: {{site.max_width}};
 ;
 
 /* assets/css/main.css */
+.link-preview {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
 
-:root {
-  --preview-title-font-size: 1.3em;
-  --preview-url-font-size: 0.9em;
+.link-preview:hover {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.link-preview img {
+  object-fit: cover;
+  height: 200px;
+}
+
+.link-preview h3 {
+  font-size: 1.2em;
+  line-height: 1.3;
+}
+
+.link-preview p {
+  font-size: 0.9em;
+  line-height: 1.5;
 }
 
 .side-by-side-previews {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   gap: 20px;
-  margin: 20px 0;
-  width: 100%;
 }
 
 .link-preview {
-  flex: 1;
-  min-width: 0;
+  flex: 1 1 calc(50% - 10px);
+  min-width: 250px;
   border: 1px solid #ddd;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   transition: box-shadow 0.3s ease-in-out;
-  display: flex;
-  flex-direction: column;
 }
 
 .link-preview:hover {
@@ -49,21 +64,15 @@ $max-content-width: {{site.max_width}};
   flex-direction: column;
   height: 100%;
   text-decoration: none;
-  color: #{$orange-color};
+  color: inherit;
 }
 
 .link-preview-image {
-  width: 100%;
   height: 200px;
-  position: relative;
   overflow: hidden;
 }
 
 .link-preview-image img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -76,21 +85,29 @@ $max-content-width: {{site.max_width}};
   flex-direction: column;
 }
 
-.link-preview-text h4 {
+.link-preview-text h3 {
   margin: 0 0 10px;
-  font-size: var(--preview-title-font-size);
-  line-height: 1.2;
-  color: #{$orange-color};
+  font-size: 1.2em;
+  line-height: 1.3;
+  color: #1a0dab;
 }
 
 .link-preview-url {
-  color: #{$orange-color};
+  color: #006621;
+  margin: 0 0 5px;
+  font-size: 0.9em;
+}
+
+.link-preview-description {
+  color: #545454;
   margin: 0;
-  font-size: var(--preview-url-font-size);
+  font-size: 0.9em;
+  line-height: 1.5;
+  flex-grow: 1;
 }
 
 @media (max-width: 600px) {
-  .side-by-side-previews {
-    flex-direction: column;
+  .link-preview {
+    flex: 1 1 100%;
   }
 }

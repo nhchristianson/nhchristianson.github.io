@@ -124,7 +124,7 @@ a, table.table a {
   }
   .navbar-nav .nav-item.active>.nav-link {
       background-color: inherit;
-      font-weight: bolder;
+      font-weight: 500;
       color: var(--global-theme-color);
       &:hover {
         color: var(--global-hover-color);

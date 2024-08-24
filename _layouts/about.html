@@ -7,7 +7,7 @@ layout: default
   <header class="post-header">
 <!-- <<<<<<< HEAD -->
     <h1 class="post-title">
-     {% if site.title == blank %}{{ site.title }}{% else %}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}{% endif %}
+     {% if site.title == blank %}{{ site.title }}{% else %}<span class="font-weight-bolder">{{ site.first_name }} {{ site.middle_name }}  {{ site.last_name }}</span>{% endif %}
     </h1>
      <p class="desc">{{ page.description }}</p>
 <!-- =======
@@ -36,8 +36,18 @@ layout: default
           {{ page.profile.address }}
         </div>
       {% endif %}
+      {% if page.social %}
+        <div></div>
+        <div class="social">
+          <div style="height: 10px;"></div>
+          <div class="contact-note"><span style="font-size: 14px; font-weight: bolder;"> <b>Email</b>: nchristi [at] caltech [dot] edu <br> or find me (and my work) online:</span></div>
+          <div style="height: 5px;"></div>
+          {% include social.html %}
+        </div>
+      {% endif %}
     </div>
     {% endif %}
+
 
     <div class="clearfix">
       {{ content }}
@@ -47,16 +57,10 @@ layout: default
       {% include selected_papers.html %}
     {% endif %}
 
-<!--     {% if page.news %}
+    {% if page.news %}
       {% include news.html %}
-    {% endif %} -->
-
-    {% if page.social %}
-    <div class="social">
-      {% include social.html %}
-      <div class="contact-note">{{ site.contact_note }}</div>
-    </div>
     {% endif %}
+
   </article>
 
 </div>

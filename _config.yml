@@ -8,7 +8,7 @@ middle_name:
 last_name: Christianson
 # email: nchristi@caltech.edu
 description: > # this means to ignore newlines until "url:"
-  Nico's personal website.
+  Nico Christianson
 footer_text:
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   # Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -49,6 +49,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: nhchristianson # your GitHub user name
 twitter_username: # your Twitter handle
 linkedin_username: nicolas-christianson-7974ba134 # your LinkedIn user name
+dblp_url: https://dblp.org/pid/322/8648.html # your DBLP profile url
 scholar_userid: XS2UFA8AAAAJ # your Google Scholar ID
 orcid_id: # 0000-0001-8330-8964 # your ORCID ID
 medium_username: # your Medium username
@@ -61,7 +62,7 @@ keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 
 contact_note: >
-  Reach me via email at nchristi [at] caltech [dot] edu
+  None
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
@@ -95,7 +96,7 @@ collections:
     output: true
     permalink: /projects/:path/
 
-news_limit: 5
+news_limit: 8
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
