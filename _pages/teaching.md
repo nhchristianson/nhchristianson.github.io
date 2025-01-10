@@ -30,7 +30,7 @@ order: 3
 
 ## Undergraduate Research Mentorship
 
-- **[James Chen](https://scholar.google.com/citations?user=Ye0HffAAAAAJ&hl=en) '24** (2023 -- 2024)
+- **[James Chen](https://james-y-chen.github.io/) '24** (2023 -- 2024)
   - *Topic:* Senior thesis on learning-augmented online optimization with ramp constraints
   - *NSF Graduate Research Fellowship --- Honorable Mention*
   - *Next step:* MIT EECS PhD student
@@ -39,7 +39,7 @@ order: 3
   - *Topic:* Learning-augmented algorithms for multiserver convex function chasing
   - *Next step:* MIT EECS PhD student
 
-- **[Jerry Huang](https://www.linkedin.com/in/jrrhuang/) '24** (2022 -- 2023)
+- **[Jerry Huang](https://scholar.google.com/citations?user=HirpfisAAAAJ&hl=en) '24** (2022 -- 2023)
   - *Topic:* Online algorithms with uncertainty-quantified predictions
   - *Next step:* CMU CS PhD student
 
