@@ -12,16 +12,13 @@ profile:
   #   <p>123 your address street</p>
   #   <p>Your City, State 12345</p> -->
 
-# <<<<<<< HEAD
-news: true  # includes a list of news items
+announcements:
+  enabled: true
+  limit: 5 # leave blank to include all the news in the `_news` folder
+
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 order: 1
-# =======
-# news: true
-# social: true
-
-# >>>>>>> first new commit to site
 ---
 
 I am a fifth-year Ph.D. candidate in Computing and Mathematical Sciences at Caltech, supported by an NSF Graduate Research Fellowship and a PIMCO Data Science Fellowship. My research is broadly concerned with decision-making under uncertainty, with a specific focus on developing new algorithms to enable deploying modern AI/ML tools reliably and safely to real-world problems in energy and sustainability.
@@ -36,13 +33,13 @@ At Caltech, I am fortunate to be advised by [Adam Wierman](https://adamwierman.c
 
 **Check out some of our recent collaboration/deployment work:**
 <div class="side-by-side-previews">
-{% include link_preview.html
+{% include link_preview.liquid
     url="https://www.amazon.science/publications/soda-an-adaptive-bitrate-controller-for-consistent-high-quality-video-streaming"
     image="assets/img/amazon_science.png"
     title="SODA: An Adaptive Bitrate Controller for Consistent High-Quality Video Streaming"
 %}
 
-{% include link_preview.html
+{% include link_preview.liquid
     url="https://chrisyeh96.github.io/sustaingym/"
     image="assets/img/logo.png"
     title="SustainGym: An RL Benchmark Suite for Sustainable Energy Systems"

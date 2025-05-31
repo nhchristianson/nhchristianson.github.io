@@ -4,30 +4,27 @@
 @charset "utf-8";
 
 // Dimensions
-$max-content-width: {{site.max_width}};
+$max-content-width: {{ site.max_width }};
 
 @import
   "variables",
   "themes",
   "layout",
-  "base"
+  "base",
+  "distill",
+  "cv",
+  "tabs",
+  "typograms",
+  "font-awesome/fontawesome",
+  "font-awesome/brands",
+  "font-awesome/solid",
+  "font-awesome/regular",
+  "tabler-icons/tabler-icons.scss",
+  "tabler-icons/tabler-icons-filled.scss",
+  "tabler-icons/tabler-icons-outline.scss"
 ;
 
-/* assets/css/main.css */
-
-:root {
-  --preview-title-font-size: 1.3em;
-  --preview-url-font-size: 0.9em;
-}
-
-.side-by-side-previews {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  margin: 20px 0;
-  width: 100%;
-}
-
+// Custom link preview styles
 .link-preview {
   flex: 1;
   min-width: 0;

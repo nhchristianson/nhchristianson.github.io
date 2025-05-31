@@ -1,0 +1,21 @@
+<!-- _includes/link_preview.liquid -->
+<div class="link-preview" style="border: 1px solid #ddd; border-radius: 8px; padding: 8px; margin: 00px 0; max-width: 50%;">
+  <a href="{{ include.url }}" target="_blank" style="text-decoration: none; color: inherit;">
+    <img src="{{ include.image }}" alt="Preview image" style="width: 100%; height: auto; border-radius: 8px; margin-bottom: 10px;">
+    <h5 style="margin: 0px 0; color: #1a0dab; text-align: left; word-spacing: 0.0em;">{{ include.title }}</h5>
+    <!-- <p style="color: #006621; margin: 5px 0;">{{ include.url | truncate: 50 }}</p> -->
+  </a>
+</div>
+
+<!-- <div class="link-preview">
+  <a href="{{ include.url }}" target="_blank" class="link-preview-content">
+    <div class="link-preview-image">
+      <img src="{{ include.image }}" alt="Preview image for {{ include.title }}">
+    </div>
+    <div class="link-preview-text">
+      <h3>{{ include.title }}</h3>
+      <p class="link-preview-url">{{ include.url | truncate: 50 }}</p>
+      <p class="link-preview-description">{{ include.description }}</p>
+    </div>
+  </a>
+</div> -->
