@@ -12,3 +12,4 @@ group :jekyll_plugins do
     gem 'jekyll-watch'
     gem 'listen'
 end
+gem "webrick", "~> 1.9"
