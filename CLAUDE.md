@@ -108,3 +108,52 @@ When modifying the site:
 3. Keep link preview cards working
 4. Update PROJECT_CONTEXT.md with changes
 5. Test locally before pushing
+
+## Progress Tracking
+
+This section tracks major work sessions, what was accomplished, and what approaches worked well.
+
+### Session: 2025-01-31 - Production Readiness Fixes
+
+**Objective**: Fix all remaining issues and prepare site for production deployment
+
+**Issues Found & Fixed**:
+1. ✅ **Placeholder Text**: Fixed "You R. Name" → "Nicolas Christianson" in `_config.yml`
+2. ✅ **URL Configuration**: Updated to correct GitHub Pages URL (`nhchristianson.github.io`)
+3. ✅ **Favicon**: Changed from emoji to proper `favicon.ico` file
+4. ✅ **Jupyter Core Error**: Installed missing module with `pip3 install --user --break-system-packages jupyter_core`
+5. ✅ **CV Placeholder Data**: Completely updated `assets/json/resume.json` with Nicolas's actual information
+6. ✅ **Blog Template Content**: Removed external sources and template posts, disabled pagination
+7. ⚠️ **Sass Warnings**: Left as-is (deprecation warnings from theme itself, non-breaking)
+
+**What Worked Well**:
+- **Puppeteer Testing**: Using Puppeteer throughout development to test changes in real-time was extremely effective
+- **Systematic Approach**: Using TodoWrite to track tasks ensured nothing was missed
+- **Batch Changes**: Making related changes together (name, URL, favicon) was efficient
+- **JSON Resume**: Updating the JSON resume file was easier than modifying YAML CV data
+
+**Testing Results**:
+- ✅ All pages functional (about, cv, research, teaching, projects)
+- ✅ Navigation working correctly
+- ✅ Custom features preserved (email obfuscation, venue buttons, link previews)
+- ✅ Dark mode toggle functional
+- ✅ Search modal working
+- ✅ No template/placeholder content visible
+
+**Commands Used**:
+```bash
+# Install missing Python dependency
+pip3 install --user --break-system-packages jupyter_core
+
+# Test site functionality
+bundle exec jekyll serve
+
+# Clean up template content
+mv _posts _posts_template_backup
+mkdir _posts
+```
+
+**Next Steps for Future Sessions**:
+- Consider adding Nicolas's own blog posts if he creates any
+- Monitor for any additional placeholder content that appears
+- Keep custom features tested when updating theme versions
