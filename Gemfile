@@ -11,4 +11,5 @@ group :jekyll_plugins do
     gem 'unicode_utils'
     gem 'jekyll-watch'
     gem 'listen'
+    gem 'webrick', '~> 1.7'
 end
