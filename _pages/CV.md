@@ -5,9 +5,9 @@ title: cv
 nav: true
 nav_order: 5
 cv_pdf: example_pdf.pdf # you can also use external links here
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
-toc:
-  sidebar: left
+description:
 ---
-
-<object data="/assets/pdf/Christianson_cv.pdf" width="100%" height="1000" type='application/pdf'/></object>
+<div style="display: flex; justify-content: center;">
+<object data="/assets/pdf/Christianson_cv.pdf" width="100%" height="1000" type='application/pdf'/><p>Download the CV PDF to view it:
+  <a href="/assets/pdf/Christianson_cv.pdf">Download PDF</a>.</p></object>
+</div>

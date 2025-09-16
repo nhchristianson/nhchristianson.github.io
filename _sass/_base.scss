@@ -40,7 +40,7 @@ table.table a {
   color: var(--global-theme-color);
 
   &:hover {
-    color: var(--global-theme-color);
+    color: var(--global-darkblue-color);
     text-decoration: underline;
   }
 
@@ -274,6 +274,26 @@ ul.task-list input[type="checkbox"] {
     color: var(--global-hover-color);
     background-color: var(--global-bg-color);
   }
+}
+
+.venue-button-link {
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px; // Moved border-radius here for a consistent hover effect
+
+    .badge {
+        background-color: white;
+        color: var(--global-theme-color) !important;
+        padding: 5px 10px;
+        border: 1px solid var(--global-theme-color); // Moved border here
+        border-radius: 5px; // This will round the corners of the button including the border
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    &:hover .badge {
+        background-color: var(--global-darkblue-color) !important;
+        color: white !important;
+    }
 }
 
 .navbar.navbar-light {
@@ -1430,3 +1450,5 @@ figure.cover {
     color: #23212d !important;
   }
 }
+
+

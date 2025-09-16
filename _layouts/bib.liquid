@@ -2,7 +2,7 @@
 ---
 <div class="row">
   {% if site.enable_publication_thumbnails %}
-    <div class="col col-sm-2 abbr">
+    <div class="col col-sm-2 abbr d-flex justify-content-end">
       {%- if entry.abbr -%}
         {%- if site.data.venues[entry.abbr] -%}
           {% assign venue_style = null %}
@@ -22,7 +22,7 @@
             {% endif %}
           </abbr>
         {% else %}
-          <abbr class="badge rounded w-100">{{ entry.abbr }}</abbr>
+          <a href="{{entry.html}}" class="venue-button-link"><abbr class="badge rounded w-100">{{ entry.abbr }}</abbr></a>
         {% endif %}
       {% endif %}
       {% if entry.preview %}
@@ -185,7 +185,7 @@
       {{ entry.note | strip }}
     </div>
 
-    <!-- Links/Buttons -->
+    <!-- Links/Buttons
     <div class="links">
       {% if entry.award %}
         <a class="award btn btn-sm z-depth-0" role="button">
@@ -253,7 +253,7 @@
       {% if entry.website %}
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
       {% endif %}
-    </div>
+    </div> -->
     {% if site.enable_publication_badges %}
       {% assign entry_has_altmetric_badge = false %}
       {% if entry.altmetric and entry.altmetric != 'false' %}
