@@ -23,6 +23,20 @@ hr {
   border-top: 1px solid var(--global-divider-color);
 }
 
+.news, .news th, .news td {
+  color: var(--global-text-color) !important;
+}
+.news a.news-title {
+  color: var(--global-theme-color) !important;
+}
+
+.talks, .talks th, .talks td {
+  color: var(--global-text-color) !important;
+}
+.talks a.talks-title {
+  color: var(--global-theme-color) !important;
+}
+
 table {
   td,
   th {
