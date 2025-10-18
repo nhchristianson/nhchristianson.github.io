@@ -27,9 +27,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an incoming Assistant Professor in the [Department of Computer Science at Johns Hopkins University](https://www.cs.jhu.edu/people/incoming-faculty/) (starting in Fall 2026); I will be affiliated with the [Data Science and AI Institute](https://ai.jhu.edu/) and the [Ralph O'Connor Sustainable Energy Institute](https://energyinstitute.jhu.edu/). <br> **📢 I am recruiting PhD students and postdocs to join my group at Johns Hopkins in Fall 2026. <a href="/group">Learn more → </a>**
+I am an incoming Assistant Professor in the [Department of Computer Science at Johns Hopkins University](https://www.cs.jhu.edu/faculty/nicolas-christianson/) (starting in Fall 2026); I will be affiliated with the [Data Science and AI Institute](https://ai.jhu.edu/) and the [Ralph O'Connor Sustainable Energy Institute](https://energyinstitute.jhu.edu/). <br> **📢 I am recruiting PhD students and postdocs to join my group at Johns Hopkins in Fall 2026. <a href="/group">Learn more → </a>**
 
-My research lies broadly at the intersection of algorithms, machine learning, and optimization. I am particularly interested in developing theoretically-grounded algorithms and AI/ML frameworks for reliable decision-making under uncertainty, motivated by applications of broad societal importance like energy and computing systems. My recent focuses include:
+My research lies broadly at the intersection of algorithms, machine learning, and optimization. I am particularly interested in developing theoretically-grounded algorithms and AI/ML frameworks for reliable decision-making under uncertainty, motivated by applications of broad societal importance like energy and computing systems. My recent interests include:
 - online and learning-augmented algorithms
 - uncertainty quantification for risk-aware decision-making
 - machine learning for optimization
