@@ -9,7 +9,7 @@ nav_order: 3
 
 ### Joining the group as a postdoc
 
-I am recruiting postdocs to join my group at Johns Hopkins in Fall 2026. If you have a strong research background in algorithms, machine learning, and/or optimization and are passionate about translating theoretical insights into practical, real-world impact, **please email me with a brief description of your research interests and 3 representative papers**. I plan to start interviewing candidates in December or January.
+I am recruiting postdocs to join my group at Johns Hopkins in Fall 2026. If you have a strong research background in algorithms, machine learning, and/or optimization and are passionate about translating theoretical insights into practical, real-world impact, **please email me with a brief description of your research interests and 3 representative papers**. I plan to start interviewing candidates in January.
 
 ### Joining the group as a PhD student
 

@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-11-05
+date: 2026-02-17
 inline: true
 related_posts: false
 ---
 
-[CS Theory Seminar](https://theory.cs.umass.edu/seminar) at UMass Amherst
+[RAIN Seminar](https://rain.stanford.edu/) at Stanford
