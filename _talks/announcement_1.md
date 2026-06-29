@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2026-02-17
+date: 2026-11-1
 inline: true
 related_posts: false
 ---
 
-[RAIN Seminar](https://rain.stanford.edu/) at Stanford
+INFORMS Annual Meeting

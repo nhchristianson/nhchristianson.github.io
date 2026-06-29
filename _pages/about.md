@@ -27,16 +27,16 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an incoming Assistant Professor in the [Department of Computer Science at Johns Hopkins University](https://www.cs.jhu.edu/faculty/nicolas-christianson/) (starting in Fall 2026); I will be affiliated with the [Data Science and AI Institute](https://ai.jhu.edu/) and the [Ralph O'Connor Sustainable Energy Institute](https://energyinstitute.jhu.edu/). <br> **📢 I am recruiting PhD students and postdocs to join my group at Johns Hopkins in Fall 2026. <a href="/group">Learn more → </a>**
+I am an incoming Assistant Professor in the [Department of Computer Science at Johns Hopkins University](https://www.cs.jhu.edu/faculty/nicolas-christianson/) (starting August 2026); I will be affiliated with the [Data Science and AI Institute](https://ai.jhu.edu/), the [Ralph O'Connor Sustainable Energy Institute](https://energyinstitute.jhu.edu/), and the [Algorithms and Complexity Group](https://theory.cs.jhu.edu/). **📢 I am recruiting PhD students to join my group at Johns Hopkins in Fall 2027. <a href="/group">Learn more → </a>**
 
 My research lies broadly at the intersection of algorithms, machine learning, and optimization. I am particularly interested in developing theoretically-grounded algorithms and AI/ML frameworks for reliable decision-making under uncertainty, motivated by applications of broad societal importance like energy and computing systems. My recent interests include:
 - online and learning-augmented algorithms
-- uncertainty quantification for risk-aware decision-making
-- machine learning for optimization
+- uncertainty quantification and risk-aware decision-making
+- AI/ML for optimization
 - applications to energy resource optimization and data center workload scheduling
 
 Before joining Johns Hopkins, I will be spending a year as a [Stanford Energy Postdoctoral Fellow](https://energypostdoc.stanford.edu/), hosted by [Ellen Vitercik](https://vitercik.github.io/) and [Ram Rajagopal](https://profiles.stanford.edu/ram-rajagopal).
-Previously, I did my PhD in Computing and Mathematical Sciences at Caltech, where I had the good fortune of working with [Adam Wierman](https://adamwierman.com/) and [Steven Low](http://netlab.caltech.edu/people). My PhD was supported in part by an NSF Graduate Research Fellowship and a PIMCO Data Science Fellowship, and my dissertation won the Ben P.C. Chou Doctoral Prize in Information Science and Technology and the Demetriades-Tsafka-Kokkalis Prize in Renewable Energy. Before Caltech, I was an undergrad in applied math at Harvard.
+Previously, I did my PhD in Computing and Mathematical Sciences at Caltech, where I had the good fortune of working with [Adam Wierman](https://adamwierman.com/) and [Steven Low](http://netlab.caltech.edu/people). My PhD was supported in part by an NSF Graduate Research Fellowship and a PIMCO Data Science Fellowship, and my dissertation won Caltech's Ben P.C. Chou Doctoral Prize in Information Science and Technology and Demetriades-Tsafka-Kokkalis Prize in Renewable Energy, as well as the ACM SIGEnergy Doctoral Dissertation Award. Before Caltech, I was an undergrad in applied math at Harvard.
 <!-- , where I worked with [Boris Kozinsky](https://mir.g.harvard.edu/people/boris-kozinsky) and [Dani S. Bassett](https://complexsystemsupenn.com/personal). -->
 
 
