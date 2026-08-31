@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="{% if site.lang %}{{ site.lang }}{% else %}en{% endif %}">
+  <head>
+    {% include head.liquid %}
+  </head>
+
+  <body class="course-site-body">
+    <a class="sr-only sr-only-focusable" href="#main-content">Skip to main content</a>
+
+    <header class="course-site-header">
+      <div class="course-site-container">
+        <div class="course-site-masthead">
+          <a class="course-site-brand" href="{{ '/teaching/601-734/' | relative_url }}">Topics in Machine Learning-Augmented Algorithm Design (EN.601.734)</a>
+          <a class="course-site-backlink" href="{{ '/' | relative_url }}">← Nico Christianson</a>
+        </div>
+
+        <nav class="course-site-nav" aria-label="Course navigation">
+          <a {% if page.course_section == 'home' %}class="active" aria-current="page"{% endif %} href="{{ '/teaching/601-734/' | relative_url }}">Home</a>
+          <a {% if page.course_section == 'schedule' %}class="active" aria-current="page"{% endif %} href="{{ '/teaching/601-734/schedule/' | relative_url }}">Schedule</a>
+          <a {% if page.course_section == 'paper-presentations' %}class="active" aria-current="page"{% endif %} href="{{ '/teaching/601-734/paper-presentations/' | relative_url }}">Paper presentations</a>
+          <a {% if page.course_section == 'project' %}class="active" aria-current="page"{% endif %} href="{{ '/teaching/601-734/project/' | relative_url }}">Project</a>
+          <a {% if page.course_section == 'grading' %}class="active" aria-current="page"{% endif %} href="{{ '/teaching/601-734/grading/' | relative_url }}">Grading and course policies</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="course-site-main course-site-container" id="main-content">
+      <article class="course-page{% if page.course_section == 'schedule' %} course-page--wide{% endif %}">
+        {{ content }}
+      </article>
+    </main>
+
+    <footer class="course-site-footer">
+      <div class="course-site-container">
+        <span>EN.601.734 · Fall 2026 · Johns Hopkins University</span>
+        <a href="{{ '/teaching/' | relative_url }}">Back to teaching</a>
+      </div>
+    </footer>
+
+    {% include scripts.liquid %}
+  </body>
+</html>
