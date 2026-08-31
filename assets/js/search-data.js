@@ -23,12 +23,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/group/";
           },
-        },{id: "nav-news",
-          title: "news",
+        },{id: "nav-teaching",
+          title: "teaching",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/news/";
+            window.location.href = "/teaching/";
           },
         },{id: "nav-cv",
           title: "cv",
@@ -36,6 +36,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
+          },
+        },{id: "nav-news",
+          title: "news",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/news/";
           },
         },{id: "books-the-godfather",
           title: 'The Godfather',
@@ -147,6 +154,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-had-a-great-time-attending-acm-e-energy-in-banff-this-week-we-had-two-full-papers-accepted-to-the-main-conference-one-on-online-and-learned-algorithms-for-thermal-energy-network-control-and-one-on-risk-sensitive-and-learning-augmented-algorithms-for-peak-aware-energy-scheduling-best-paper-finalist-in-addition-i-co-organized-the-workshop-on-physics-informed-learning-for-optimization-and-control-of-susatainable-energy-systems-and-gave-an-award-talk-for-the-sigenergy-dissertation-award-it-was-great-to-see-so-many-collaborators-and-friends",
           title: 'I had a great time attending ACM e-Energy in Banff this week! We...',
           description: "",
+          section: "News",},{id: "news-i-attended-the-lamp-workshop-at-ttic-and-gave-a-spotlight-talk-on-our-recent-work-on-prediction-specific-design-of-online-algorithms-thanks-to-the-organizers-for-putting-together-such-a-great-workshop",
+          title: 'I attended the LAMP Workshop at TTIC and gave a spotlight talk on...',
+          description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
@@ -192,10 +202,7 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "talks-lamp-workshop-spotlight-talk",
-          title: 'LAMP Workshop spotlight talk',
-          description: "",
-          section: "Talks",},{id: "talks-informs-annual-meeting",
+            },},{id: "talks-informs-annual-meeting",
           title: 'INFORMS Annual Meeting',
           description: "",
           section: "Talks",},];
