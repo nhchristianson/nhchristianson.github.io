@@ -202,7 +202,13 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "talks-informs-annual-meeting",
+            },},{id: "talks-johns-hopkins-ams-seminar",
+          title: 'Johns Hopkins AMS Seminar',
+          description: "",
+          section: "Talks",},{id: "talks-university-of-delaware-cis-seminar",
+          title: 'University of Delaware CIS Seminar',
+          description: "",
+          section: "Talks",},{id: "talks-informs-annual-meeting",
           title: 'INFORMS Annual Meeting',
           description: "",
           section: "Talks",},];
