@@ -44,6 +44,20 @@ nav_order: 2
   </div>
   <br>
   <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 20px;">
+        <div style="text-align: center; width: 49%;">
+            <div style="font-weight: bolder; font-size: 16px; margin-bottom: 10px;">
+                LAMP Workshop Spotlight Talk, TTIC, August 2026
+            </div>
+            <iframe width="100%" height="auto"
+                    src="https://www.youtube.com/embed/WRURJiCTltk"
+                    title="Prediction-Specific Design of Learning-Augmented Algorithms – Nicolas Christianson, LAMP Workshop"
+                    frameborder="0"
+                    style="aspect-ratio: 16/9;"
+                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen>
+            </iframe>
+        </div>
     <!-- Amii -->
       <div style="text-align: center; width: 49%;">
           <div style="font-weight: bolder; font-size: 16px; margin-bottom: 10px;">Amii AI Seminar, July 2024</div>
@@ -57,7 +71,7 @@ nav_order: 2
                   allowfullscreen>
           </iframe>
       </div>
-      <!-- CAST -->
+      <!-- CAST
       <div style="text-align: center; width: 49%;">
           <div style="font-weight: bolder; font-size: 16px; margin-bottom: 10px;">Caltech CAST Flash Talk, October 2023</div>
           <iframe width="100%" height="auto"
@@ -69,7 +83,7 @@ nav_order: 2
                   referrerpolicy="strict-origin-when-cross-origin"
                   allowfullscreen>
           </iframe>
-      </div>
+      </div> -->
   </div>
 </div>
 
