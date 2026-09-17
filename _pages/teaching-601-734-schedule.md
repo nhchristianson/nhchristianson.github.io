@@ -9,7 +9,7 @@ nav: false
 
 # Schedule
 
-The schedule is tentative and will be updated as the semester progresses.
+The schedule is tentative and will be updated as the semester progresses. Lecture notes are available under the "Files" tab on Canvas.
 
 <div class="table-responsive" markdown="1">
 
