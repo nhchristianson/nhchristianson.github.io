@@ -41,7 +41,7 @@ Mathematical maturity (i.e., familiarity with proofs) and prior courses in algor
 ## Important dates
 
 - **Monday evenings**: Reading responses due
-- **September 17**: Problem set due
+- **September 24**: Problem set due
 - **October 8**: Project proposal due
 - **November 5**: Mid-semester project update presentations
 - **November 17 -- December 10**: Paper presentations
