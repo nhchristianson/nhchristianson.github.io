@@ -47,8 +47,8 @@ The strength of the university depends on academic and personal integrity. In th
 **Generative AI use.** Generative AI models (including but not limited to ChatGPT, Claude, Gemini, Qwen, etc.) can help support learning, debugging, proofreading, and understanding technical course material. However, these tools should not replace your own intellectual work and understanding. As such, use of AI for the following purposes is **prohibited**:
 - Writing weekly reading responses. 
 - Generating complete solutions or substantive portions of solutions to problem set questions. 
-- Generating an entire algorithm implementation or substantive parts of the codebase for the final project.
-- Generating a complete mathematical proof or substantive portions of a proof for the final project.
+- Generating an algorithm implementation or substantive parts of the codebase for the final project without independently checking and verifying the correctness of the code.
+- Generating a mathematical proof or substantive portions of a proof for the final project without independently *verifying* and *understanding* the mathematical argument. Proofs that are written with AI assistance should be substantially rewritten to eliminate jargon and to improve exposition and clarity.
 - Generating substantive prose for the project proposal or final project writeup (e.g., more than a paragraph).
 - Generating citations without independently locating and verifying the source. 
 - Generating substantive parts of the slide deck for the paper presentation or final project presentation. 
@@ -60,6 +60,7 @@ The following uses of AI are permitted:
 - Using AI as a starting point for literature review, followed by an independent literature search (using, e.g., Google Scholar). Note that AI tools (even advanced ones like ChatGPT Deep Research) may not find all related papers, so it is important to do your own search. 
 - Debugging code and writing generic supporting code (for, e.g., plotting results). Note that students remain responsible for the correctness of the generated code. 
 - Checking student-written mathematical proofs for correctness. 
+- Producing candidate mathematical proofs for technical results in the final project is permitted, so long as the student independently checks the correctness of the result, fully understands and can explain the result, and substantially rewrites the proof to ensure clarity.
 - Rephrasing and editing student-written text to help with exposition, clarity, grammar, and spelling.
 - Providing feedback on slide organization, layout, and presentation. 
 
