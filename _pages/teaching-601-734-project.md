@@ -26,7 +26,7 @@ Project deliverables include:
 
 | Milestone | Due date | Details | Fraction of project grade |
 | --- | --- | --- | --- |
-| Project proposal | October 8 | Groups are highly encouraged to meet with the instructor before the proposal deadline to ensure the topic is well-scoped and relevant to the course topic | 1/6 |
+| Project proposal | October 9 | Groups are highly encouraged to meet with the instructor before the proposal deadline to ensure the topic is well-scoped and relevant to the course topic | 1/6 |
 | Mid-semester project update presentation | November 5 | Overview of topic, progress, and next steps | 1/6 |
 | Final presentation | December 15, 9am–12pm | Presentation of results | 1/3 |
 | Final report | December 15, end of day | Complete project write-up | 1/3 |

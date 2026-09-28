@@ -26,7 +26,7 @@ The schedule is tentative and will be updated as the semester progresses. Lectur
 | <span class="course-tba">9/29</span> | Speeding up matching algorithms I | • [Faster Matchings via Learned Duals](https://proceedings.neurips.cc/paper/2021/file/5616060fb8ae85d93f334e7267307664-Paper.pdf) | Reading response due on Monday, 9/28 |
 | <span class="course-tba">10/1</span> | Speeding up matching algorithms II | | |
 | <span class="course-tba">10/6</span> | Learning predictions from data I | • [Learning Predictions for Algorithms with Predictions](https://proceedings.neurips.cc/paper_files/paper/2022/file/17061a94c3c7fda5fa24bbdd1832fa99-Supplemental-Conference.pdf) <br>• (Optional) [Customizing ML Predictions For Online Algorithms](https://proceedings.mlr.press/v119/anand20a/anand20a.pdf) <br>• (Optional) [Learning Online Algorithms with Distributional Advice](https://proceedings.mlr.press/v139/diakonikolas21a.html)  | Reading response due on Monday, 10/5 |
-| <span class="course-tba">10/8</span> | Learning predictions from data II | | Project proposal due |
+| <span class="course-tba">10/8</span> | Learning predictions from data II | | Project proposal due on the 9th |
 | <span class="course-tba">10/13</span> | TBA | | |
 | <span class="course-tba">10/15</span> | TBA |  | |
 | <span class="course-tba">10/20</span> | TBA | | |
