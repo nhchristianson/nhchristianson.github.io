@@ -40,6 +40,14 @@ Potential topics for paper presentations are listed below. You're welcome to pre
     - [Unrolled Neural Networks for Constrained Optimization](https://arxiv.org/abs/2601.17274)
     - [Optimizing Solution-Samplers for Combinatorial Problems: The Landscape of Policy-Gradient Methods](https://arxiv.org/abs/2310.05309)
 
+- Applications
+    - [Robust and learning-augmented algorithms for degradation-aware battery optimization](https://arxiv.org/abs/2601.17193)
+    - [Online Conversion with Switching Costs: Robust and Learning-Augmented Algorithms](https://arxiv.org/abs/2310.20598)
+    - [Optimal SSD Management with Predictions](https://dl.acm.org/doi/10.1145/3727122)
+    - [Queueing, Predictions, and LLMs: Challenges and Open Problems](https://arxiv.org/abs/2503.07545)
+    - [Credence: Augmenting Datacenter Switch Buffer Sharing with ML Predictions](https://arxiv.org/abs/2401.02801)
+    
+
 
 
 ***Check back soon for a more detailed grading rubric and additional paper suggestions.***

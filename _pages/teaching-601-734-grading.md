@@ -34,7 +34,7 @@ Final project presentations will occur during the course's designated final exam
 
 - Reading responses should be done independently by each student.
 - Students are encouraged to collaborate on the problem set, so long as they list the other students they worked with. 
-- Paper presentations will be done in groups of 2-3, and projects will be done in groups of 1-3. 
+- Paper presentations will be done in groups of 2-3, and projects will be done in groups of 1-2. 
 
 ## Late work policy
 

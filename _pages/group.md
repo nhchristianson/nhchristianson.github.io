@@ -18,11 +18,11 @@ nav_order: 3
 
 I am recruiting PhD students to join my group at Johns Hopkins in Fall 2027. I am specifically looking for curious, driven students who are interested both in working on mathematical theory (related to the foundations of algorithms and AI/ML) as well as translating these foundations into real-world impact in applications such as energy, computing systems, and beyond. 
 I encourage applications from students with strong mathematical backgrounds, regardless of whether their prior training is in computer science, mathematics, physics, engineering, or related technical fields.
-**If you're interested in working with me, please apply to the [JHU CS PhD program](https://www.cs.jhu.edu/academic-programs/graduate-studies/phd-program/) (note the application deadline is December 15th) and mention me as a potential advisor in your application.** If you have any questions about application requirements, fees, etc., see the [PhD Admissions FAQ](https://www.cs.jhu.edu/academic-programs/graduate-studies/phd-program/phd-admissions-faqs/). You're welcome to email me directly to express your interest, but due to the volume of such emails, I may not be able to respond.
+**If you're interested in working with me, please apply to the [JHU CS PhD program](https://www.cs.jhu.edu/academic-programs/graduate-studies/phd-program/) (note the application deadline is December 15th) and mention me as a potential advisor in your application.** If you have any questions about application requirements, fees, etc., see the [PhD Admissions FAQ](https://www.cs.jhu.edu/academic-programs/graduate-studies/phd-program/phd-admissions-faqs/). You're welcome to email me directly to express your interest, but due to the volume of such emails, I may not be able to respond. I won't respond to emails that are clearly AI-written.
 
 #### as an undergrad or master's student:
 
-If you are currently an undergraduate or master's student at JHU and are interested in working with me, please reach out via email. One good way to learn about and explore the sort of research I do is to take a course with me: I will be teaching the graduate course "Topics in Machine Learning-Augmented Algorithm Design" (601.734) in Fall 2026. 
+If you are currently an undergraduate or master's student at JHU and are interested in working with me, please reach out via email; note that I won't respond to emails that are clearly AI-written. A good way to learn about and explore the sort of research I do is to take a course with me: I will be teaching the graduate course [Topics in Machine Learning-Augmented Algorithm Design](/teaching/601-734/) (601.734) in Fall 2026. 
 
 #### as a postdoc:
 I am not currently hiring new postdocs.
