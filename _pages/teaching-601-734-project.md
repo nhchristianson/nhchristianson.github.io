@@ -13,7 +13,7 @@ Students will complete a semester-long research project related to machine learn
 
 ## Project format
 
-Projects will be conducted in groups of **1–2**; you should discuss with your classmates early on to find topics of common interest and form project groups. Project scope and depth should scale with group size; two-person groups will be expected to demonstrate a broader or more technically deep contribution than solo projects. Please attend office hours or schedule a meeting with the instructor if you need project topic suggestions. The ideal project will yield a short paper of quality comparable to a workshop paper at, e.g., NeurIPS; projects should be scoped accordingly.
+Projects will be conducted in groups of **1–3**; you should discuss with your classmates early on to find topics of common interest and form project groups. Project scope and depth should scale with group size; two-person groups will be expected to demonstrate a broader or more technically deep contribution than solo projects. Please attend office hours or schedule a meeting with the instructor if you need project topic suggestions. The ideal project will yield a short paper of quality comparable to a workshop paper at, e.g., NeurIPS; projects should be scoped accordingly.
 
 Project deliverables include:
 
