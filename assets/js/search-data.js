@@ -160,6 +160,12 @@ ninja.data = [{
           section: "News",},{id: "news-new-paper-on-multi-scale-power-modulation-for-datacenter-flexibility-just-posted-to-arxiv",
           title: 'New paper on multi-scale power modulation for datacenter flexibility just posted to arXiv!...',
           description: "",
+          section: "News",},{id: "news-i-visited-the-university-of-delaware-to-give-a-talk-in-the-cis-seminar-thanks-to-rahmat-beheshti-for-the-invitation",
+          title: 'I visited the University of Delaware to give a talk in the CIS...',
+          description: "",
+          section: "News",},{id: "news-two-new-preprints-just-posted-to-arxiv-one-on-near-optimal-bounds-for-non-clairvoyant-scheduling-with-predictions-and-one-on-peak-aware-one-way-trading",
+          title: 'Two new preprints just posted to arXiv: one on near-optimal bounds for non-clairvoyant...',
+          description: "",
           section: "News",},{id: "news-new-preprint-giving-a-linear-lower-bound-for-convex-body-chasing-in-any-ell-p-norm",
           title: 'New preprint giving a linear lower bound for convex body chasing in any...',
           description: "",
@@ -208,10 +214,7 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "talks-university-of-delaware-cis-seminar",
-          title: 'University of Delaware CIS Seminar',
-          description: "",
-          section: "Talks",},{id: "talks-informs-annual-meeting",
-          title: 'INFORMS Annual Meeting',
+            },},{id: "talks-informs-annual-meeting-in-the-session-physics-informed-learning-for-optimization-and-control-of-energy-systems-on-sunday-november-1-from-1-15-2-30pm",
+          title: 'INFORMS Annual Meeting (in the session “Physics-Informed Learning for Optimization and Control of...',
           description: "",
           section: "Talks",},];
