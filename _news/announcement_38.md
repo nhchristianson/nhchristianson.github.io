@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2026-10-23
+date: 2026-10-02
 inline: true
 related_posts: false
 ---
 
-New [preprint]({{ '/assets/pdf/cbc_linear_lower_bound.pdf' | relative_url }}) giving a linear lower bound for convex body chasing in any $$\ell_p$$ norm!
+I visited the University of Delaware to give a talk in the CIS Seminar. Thanks to [Rahmat Beheshti](https://sites.udel.edu/rbi/) for the invitation!

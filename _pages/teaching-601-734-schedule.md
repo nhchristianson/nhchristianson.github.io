@@ -27,18 +27,18 @@ The schedule is tentative and will be updated as the semester progresses. Lectur
 | <span class="course-tba">10/1</span> | Speeding up matching algorithms II | | |
 | <span class="course-tba">10/6</span> | Learning predictions from data I | • [Learning Predictions for Algorithms with Predictions](https://proceedings.neurips.cc/paper_files/paper/2022/file/17061a94c3c7fda5fa24bbdd1832fa99-Supplemental-Conference.pdf) <br>• (Optional) [Customizing ML Predictions For Online Algorithms](https://proceedings.mlr.press/v119/anand20a/anand20a.pdf) <br>• (Optional) [Learning Online Algorithms with Distributional Advice](https://proceedings.mlr.press/v139/diakonikolas21a.html)  | Reading response due on Monday, 10/5 |
 | <span class="course-tba">10/8</span> | Learning predictions from data II | | Project proposal due on the 9th |
-| <span class="course-tba">10/13</span> | TBA | | |
-| <span class="course-tba">10/15</span> | TBA |  | |
-| <span class="course-tba">10/20</span> | TBA | | |
+| <span class="course-tba">10/13</span> | Learning predictions from data III | | |
+| <span class="course-tba">10/15</span> | Approximation Algorithms with Predictions I | [Approximation Algorithms for Combinatorial Optimization with Predictions](https://arxiv.org/abs/2411.16600) | |
+| <span class="course-tba">10/20</span> | Approximation Algorithms with Predictions II | | |
 | <span class="course-tba">10/22</span> | **Fall break, no class** | | |
-| <span class="course-tba">10/27</span> | TBA | | |
-| <span class="course-tba">10/29</span> | TBA | | |
+| <span class="course-tba">10/27</span> | Neural Algorithmic Reasoning I | • [Neural Execution of Graph Algorithms](https://openreview.net/pdf?id=SkgKO0EtvS) <br>• (Optional) [Neural Algorithmic Reasoning](https://arxiv.org/abs/2105.02761) | Reading response due Tuesday, 10/27|
+| <span class="course-tba">10/29</span> | Neural Algorithmic Reasoning II | • [Primal-Dual Neural Algorithmic Reasoning](https://openreview.net/pdf?id=iBpkzB5LEr) | |
 | <span class="course-tba">11/3</span> | TBA | | |
 | <span class="course-tba">11/5</span> | Mid-semester project updates | | |
 | <span class="course-tba">11/10</span> | TBA | | |
 | <span class="course-tba">11/12</span> | TBA | | |
-| <span class="course-tba">11/17</span> | Student paper presentations | | |
-| <span class="course-tba">11/19</span> | Student paper presentations | | |
+| <span class="course-tba">11/17</span> | TBA | | |
+| <span class="course-tba">11/19</span> | TBA | | |
 | <span class="course-tba">11/24</span> | **Thanksgiving break, no class** | | |
 | <span class="course-tba">11/26</span> | **Thanksgiving break, no class** | | |
 | <span class="course-tba">12/1</span> | Student paper presentations | | |
