@@ -1,0 +1,7 @@
+# Add a new entry for each member and save their photo in assets/img/group/.
+- name: Sizhe Li
+  website: https://bill-sizheli.github.io/
+  image: /assets/img/group/sizhe-li.jpg
+  # Photo source: https://bill-sizheli.github.io/assets/img/prof_pic.jpg
+  role: PhD student
+  started: Fall 2026

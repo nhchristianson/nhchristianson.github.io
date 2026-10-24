@@ -1,0 +1,24 @@
+<ul class="group-members">
+  {% for member in include.members %}
+    <li class="group-member">
+      <a class="group-member__link" href="{{ member.website | escape }}">
+        <img
+          class="group-member__photo"
+          src="{{ member.image | relative_url }}"
+          alt=""
+          width="192"
+          height="192"
+          loading="lazy"
+        >
+        <span class="group-member__name">{{ member.name | escape }}</span>
+      </a>
+      <p class="group-member__details">
+        {{ member.role | escape }}
+        {% if member.started %}
+          <br>
+          <span>Started {{ member.started | escape }}</span>
+        {% endif %}
+      </p>
+    </li>
+  {% endfor %}
+</ul>
