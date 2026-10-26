@@ -7,15 +7,28 @@ course_section: paper-presentations
 nav: false
 ---
 
-During the last few weeks of class, students will present (in groups of 2-3) recent research papers related to the course topic. Presentations should give an overview of the problem setting, context within the related literature, model, proofs (or proof sketches) of the main results, and experimental results. Presentations can use slides and the whiteboard. 
+During the last few weeks of class, students will present recent research papers related to the course topic in **groups of 2–3 students**. Presentations should give an overview of the problem setting, context within the related literature, model, proofs (or proof sketches) of the main results, and experimental results where applicable. Presentations can use slides and the whiteboard.
 
-Each group will be assigned one class period to present the paper, and students not presenting are expected to attend class prepared to engage and ask questions. Groups should schedule a meeting with the course instructor **at least one week before their assigned presentation slot** with a draft of their presentation to obtain feedback. The presentation grade will be determined as follows:
+Each group will be assigned one full (75 minute) class period to present the paper, and students not presenting are expected to attend class **on time**, prepared to engage and ask questions. Groups should meet with the course instructor **at least one week before their assigned presentation slot** with a near-full draft of their presentation to obtain feedback.
 
-- **25%**: First draft of the presentation, presented to the course instructor during a meeting at least one week before the assigned presentation slot.
-- **75%**: In-class presentation.
+## Grading rubric
 
+The advance meeting is **graded for completion**: presenting a near-full draft of the presentation to the instructor at least one week ahead of time earns the **full 25%**, even if the draft still needs refinement. The goal is to make sure that groups are on track for a successful presentation, and to obtain feedback and incorporate it into the in-class presentation.
 
-Potential topics for paper presentations are listed below. You're welcome to present a paper not on this list if it's related to the course topic; just email the instructor to check. 
+The remaining **75%** is based on the in-class presentation. Percentages below are of the paper presentation grade; partial credit will reflect how fully the presentation meets each standard.
+
+| Criterion | Weight | Full-credit standard |
+| --- | ---: | --- |
+| **Advance meeting (completion)** | **25%** | Meets with the instructor at least one week before the assigned slot with a near-full draft covering the planned presentation, including the main technical content. The draft does not need to be fully polished, but should be coherent enough to enable productive discussion. |
+| **Content, framing, and clarity** | **30%** | Presents a clear, coherent narrative with minimal jargon, explaining the problem, related work, the paper's contribution, and potential impact. Defines notation when introduced and explains the methods and main results, including proof sketches/intuitive ideas of the main results and experimental results where applicable. |
+| **Demonstrated understanding of the material** | **30%** | Demonstrates a detailed understanding of the paper's context, assumptions, methods, proofs, experiments, and limitations. Presenters can effectively answer specific questions about the technical details, methodological choices, and how the work is distinguished from prior work. |
+| **Visual communication and delivery** | **15%** | Uses clear, legible slides and/or whiteboard explanations with a balance of visuals, math, and text as appropriate; not just dense text and bullet points. The presentation is well organized, well paced, and shows clear ownership of the material: presenters explain ideas in their own words without relying on a script. |
+{: .course-rubric }
+
+## Suggested papers
+
+Potential topics for paper presentations are listed below. **Groups are welcome to choose a different paper that is not on this list to present, as long as it's related to the course topic.**
+
 - Different prediction models for algorithms with predictions
     - [Online Algorithms with Multiple Predictions](https://arxiv.org/pdf/2205.03921)
     - [Algorithms with Prediction Portfolios](https://arxiv.org/abs/2210.12438)
@@ -46,8 +59,3 @@ Potential topics for paper presentations are listed below. You're welcome to pre
     - [Optimal SSD Management with Predictions](https://dl.acm.org/doi/10.1145/3727122)
     - [Queueing, Predictions, and LLMs: Challenges and Open Problems](https://arxiv.org/abs/2503.07545)
     - [Credence: Augmenting Datacenter Switch Buffer Sharing with ML Predictions](https://arxiv.org/abs/2401.02801)
-    
-
-
-
-***Check back soon for a more detailed grading rubric and additional paper suggestions.***

@@ -219,23 +219,25 @@
 
 .course-milestones,
 .course-rubric {
+  // Keep these tables, including nested bold text, readable on a light surface.
+  --global-text-color: #212529;
+  background-color: #fff;
   border-collapse: collapse;
+  color: var(--global-text-color);
+  color-scheme: light;
 
   th,
   td {
     border-bottom: 1px solid var(--global-divider-color);
+    color: var(--global-text-color) !important;
   }
 }
 
 .course-rubric {
-  background-color: #fff;
-  color: #212529;
-  color-scheme: light;
   width: 100%;
 
   th,
   td {
-    color: #212529 !important;
     padding: 0.75rem 1rem 0.75rem 0;
     text-align: left;
     vertical-align: top;
