@@ -33,7 +33,7 @@ The schedule is tentative and will be updated as the semester progresses. Lectur
 | <span class="course-tba">10/22</span> | **Fall break, no class** | | |
 | <span class="course-tba">10/27</span> | Neural Algorithmic Reasoning I | • [Neural Execution of Graph Algorithms](https://openreview.net/pdf?id=SkgKO0EtvS) <br>• (Optional) [Neural Algorithmic Reasoning](https://arxiv.org/abs/2105.02761) | Reading response due Tuesday, 10/27|
 | <span class="course-tba">10/29</span> | Neural Algorithmic Reasoning II | • [Primal-Dual Neural Algorithmic Reasoning](https://openreview.net/pdf?id=iBpkzB5LEr) | |
-| <span class="course-tba">11/3</span> | TBA | | |
+| <span class="course-tba">11/3</span> | Extended office hours for feedback on mid-semester project updates (to get ready for Thursday) | | |
 | <span class="course-tba">11/5</span> | Mid-semester project updates | | |
 | <span class="course-tba">11/10</span> | TBA | | |
 | <span class="course-tba">11/12</span> | TBA | | |
