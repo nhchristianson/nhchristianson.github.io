@@ -35,8 +35,9 @@ The schedule is tentative and will be updated as the semester progresses. Lectur
 | <span class="course-tba">10/29</span> | Neural Algorithmic Reasoning II | • [Primal-Dual Neural Algorithmic Reasoning](https://openreview.net/pdf?id=iBpkzB5LEr) | |
 | <span class="course-tba">11/3</span> | Extended office hours for feedback on mid-semester project updates (to get ready for Thursday) | | No reading response |
 | <span class="course-tba">11/5</span> | Mid-semester project updates | | |
-| <span class="course-tba">11/10</span> | TBA | | |
-| <span class="course-tba">11/12</span> | TBA | | |
+| <span class="course-tba">11/10</span> | Provable generalization for neural algorithmic reasoning I | • [Graph neural networks extrapolate out-of-distribution for shortest paths
+](https://arxiv.org/abs/2503.19173) <br>• (Optional) [Which Algorithms Can Graph Neural Networks Learn?](https://arxiv.org/abs/2602.13106) | Reading response due Tuesday, 11/10 |
+| <span class="course-tba">11/12</span> | Provable generalization for neural algorithmic reasoning II | | |
 | <span class="course-tba">11/17</span> | TBA | | |
 | <span class="course-tba">11/19</span> | TBA | | |
 | <span class="course-tba">11/24</span> | **Thanksgiving break, no class** | | |
