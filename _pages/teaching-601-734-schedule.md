@@ -37,8 +37,8 @@ The schedule is tentative and will be updated as the semester progresses. Lectur
 | <span class="course-tba">11/5</span> | Mid-semester project updates | | |
 | <span class="course-tba">11/10</span> | Provable generalization for neural algorithmic reasoning I | • [Graph neural networks extrapolate out-of-distribution for shortest paths](https://arxiv.org/abs/2503.19173) <br>• (Optional) [Which Algorithms Can Graph Neural Networks Learn?](https://arxiv.org/abs/2602.13106) | Reading response due Tuesday, 11/10 |
 | <span class="course-tba">11/12</span> | Provable generalization for neural algorithmic reasoning II | | |
-| <span class="course-tba">11/17</span> | TBA | | |
-| <span class="course-tba">11/19</span> | TBA | | |
+| <span class="course-tba">11/17</span> | Learning algorithms in-context I | • [What learning algorithm is in-context learning? Investigations with linear models](https://arxiv.org/abs/2211.15661) <br>• (Optional) [Transformers as Statisticians: Provable In-Context Learning with In-Context Algorithm Selection](https://proceedings.nips.cc/paper_files/paper/2023/file/b2e63e36c57e153b9015fece2352a9f9-Paper-Conference.pdf) <br>• (Optional) [Transformers Learn to Achieve Second-Order Convergence Rates for In-Context Linear Regression](https://proceedings.nips.cc/paper_files/paper/2024/file/b2d4051f03a7038a2771dfbbe5c7b54e-Paper-Conference.pdf) | Reading response due Tuesday, 11/17 |
+| <span class="course-tba">11/19</span> | Learning algorithms in-context II | | |
 | <span class="course-tba">11/24</span> | **Thanksgiving break, no class** | | |
 | <span class="course-tba">11/26</span> | **Thanksgiving break, no class** | | |
 | <span class="course-tba">12/1</span> | Student paper presentations | | |
