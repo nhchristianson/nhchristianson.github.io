@@ -14,8 +14,8 @@ nav_order: 3
 
 #### as a PhD student:
 
-I am recruiting PhD students to join my group at Johns Hopkins in Fall 2027. I am specifically looking for curious, driven students with strong mathematical and technical backgrounds who are interested in working on mathematical theory (related to the foundations of algorithms, AI/ML, optimization, etc.) and are passionate about translating these foundations into tangible, real-world impact in applications such as energy, computing systems, and beyond. 
-I encourage applications from students with strong technical backgrounds, regardless of whether their prior training is in computer science, mathematics, physics, engineering, or related fields.
+I am recruiting PhD students to join my group at Johns Hopkins in Fall 2027. I am specifically looking for curious, driven students with strong mathematical and technical backgrounds who are interested in developing theory-grounded methods (in AI/ML, algorithms, optimization, statistics, etc.) that will drive tangible, real-world impact in applications such as energy, computing systems, sustainability, and beyond. 
+I encourage applications from students with strong technical backgrounds and broad applied interests, regardless of whether their prior training is in computer science, mathematics, physics, engineering, or related fields.
 **If you're interested in working with me, please apply to the [JHU CS PhD program](https://www.cs.jhu.edu/academic-programs/graduate-studies/phd-program/) (note the application deadline is December 15th) and mention me as a potential advisor in your application.** If you have any questions about application requirements, fees, etc., see the [PhD Admissions FAQ](https://www.cs.jhu.edu/academic-programs/graduate-studies/phd-program/phd-admissions-faqs/). You're welcome to email me directly to express your interest, but due to the volume of such emails, I may not be able to respond. I won't respond to emails that are clearly AI-written.
 
 #### as an undergrad or master's student:
